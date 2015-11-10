@@ -8,7 +8,7 @@ ghci
 compilePablo <inputPath> <outputPath>
 ```
 
-Example Input
+Example Input (in Pablo)
 ```
 x = 111...
 while a | b:
@@ -22,7 +22,7 @@ while a | b:
 z = MatchStar x y
 ```
 
-Example Output
+Example Output (in Pablo IR)
 ```
 entry:
 	%0x = 1
